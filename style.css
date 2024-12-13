@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: #ff6b6b;
+    color: white;
+    border-bottom: 5px solid #ff4757;
+}
+
+.choice-section {
+    margin: 30px auto;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#yesButton {
+    background-color: #2ed573;
+    color: white;
+}
+
+#yesButton:hover {
+    background-color: #28a745;
+    transform: scale(1.1);
+}
+
+#noButton {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+#noButton:hover {
+    background-color: #ff4757;
+    transform: scale(1.1);
+}
+
+#responseMessage {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
